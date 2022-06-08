@@ -25,6 +25,10 @@ main {
 }
 
 @media (max-width:680px) {
+  body{
+    width: 600px;
+    padding: 40px 100px;
+  }
   main{
    width: 400px;
   } 
