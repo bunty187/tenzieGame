@@ -24,6 +24,12 @@ main {
   align-items: center;
 }
 
+@media (max-width:680px) {
+  main{
+   width: 400px;
+  } 
+ }
+
 .title {
   font-size: 40px;
   margin: 0;
@@ -34,8 +40,6 @@ main {
   font-weight: 400;
   margin-top: 0;
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .dice-container {
